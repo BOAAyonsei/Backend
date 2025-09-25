@@ -5,18 +5,43 @@ flutter_app/.flutter-plugins
 flutter_app/.flutter-plugins-dependencies
 flutter_app/.packages
 flutter_app/pubspec.lock
+flutter_app/.metadata
+
+# Flutter iOS
 flutter_app/ios/Flutter/Generated.xcconfig
 flutter_app/ios/Flutter/flutter_export_environment.sh
 flutter_app/ios/Runner/GeneratedPluginRegistrant.*
+flutter_app/ios/.symlinks/
+flutter_app/ios/Pods/
+flutter_app/ios/Runner.xcworkspace/xcuserdata/
+flutter_app/ios/Runner.xcodeproj/xcuserdata/
+flutter_app/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Flutter Android
 flutter_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
 flutter_app/android/.gradle/
 flutter_app/android/gradle/
 flutter_app/android/local.properties
 flutter_app/android/app/build/
+flutter_app/android/app/release/
+flutter_app/android/.gradle/
+flutter_app/android/captures/
+flutter_app/android/gradlew
+flutter_app/android/gradlew.bat
+flutter_app/android/key.properties
+
+# Flutter Windows
 flutter_app/windows/flutter/generated_plugin_registrant.cc
 flutter_app/windows/flutter/generated_plugin_registrant.h
-flutter_app/web/
-flutter_app/.metadata
+flutter_app/windows/flutter/generated_plugins.cmake
+
+# Flutter Linux
+flutter_app/linux/flutter/generated_plugin_registrant.cc
+flutter_app/linux/flutter/generated_plugin_registrant.h
+flutter_app/linux/flutter/generated_plugins.cmake
+
+# Flutter macOS
+flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift
 
 # Spring Boot
 spring_backend/target/
