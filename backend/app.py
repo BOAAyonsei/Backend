@@ -87,4 +87,4 @@ def emergency_alert():
 if __name__ == '__main__':
     print("Starting Safe Voice API server...")
     print(f"Model path: {MODEL_PATH}")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True)
