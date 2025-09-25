@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(spring init:*)",
+      "Bash(flutter create:*)",
+      "Bash(flutter pub:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(flutter:*)",
+      "WebFetch(domain:safe-path-voice-aler-w870.bolt.host)",
+      "Bash(ipconfig)",
+      "Bash(findstr:*)",
+      "Bash(npx http-server:*)",
+      "Bash(netsh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
